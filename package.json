@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch --env-file=.env server.js"
   },
   "repository": {
     "type": "git",
@@ -13,9 +14,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/pautomas2/Proyecto_equipo3/issues"
   },
-  "homepage": "https://github.com/pautomas2/Proyecto_equipo3#readme"
+  "homepage": "https://github.com/pautomas2/Proyecto_equipo3#readme",
+  "dependencies": {
+    "@fastify/autoload": "^6.3.1",
+    "@fastify/helmet": "^13.0.1",
+    "@fastify/sensible": "^6.0.3",
+    "@types/node": "^24.5.2",
+    "fastify": "^5.6.0"
+  }
 }
