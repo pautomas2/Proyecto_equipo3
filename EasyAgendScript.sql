@@ -32,3 +32,14 @@ create table agenda (
 	foreign key (empleadoId) references funcionarios(idUsuario),
 	constraint hora_empleado unique (turnos, empleadoId)
 );
+/* Insert de datos */
+INSERT INTO funcionarios (idUsuario, isAdmin, userName, isDisponible) VALUES
+(1001, true, 'María González', true),
+(1002, false, 'Carlos Rodríguez', true),
+(1003, false, 'Sofía Martínez', true),
+(1004, false, 'Ana López', true),
+(2001, true, 'Dr. Roberto Silva', true),
+(2002, false, 'Dra. Elena Vargas', true),
+(2003, false, 'Dr. Javier Morales', true),
+(2004, false, 'Laura Fernández', true),
+(2005, false, 'Carmen Díaz', true);
