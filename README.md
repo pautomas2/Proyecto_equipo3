@@ -118,12 +118,12 @@ Descripción: Como empresa, quiero ver estadísticas sobre mis citas y clientes.
 
 ### Funcionalidades futuras
 
-| ID    | Actor           | Descripción                     | Prioridad | MPV |
-| ----- | --------------- | ------------------------------- | --------- | --- |
-| HU009 | Cliente/Empresa | Notificaciones avanzadas        | Media     | No  |
-| HU010 | Empresa/Cliente | Integración con Google Calendar | Baja      | No  |
-| HU011 | Empresa/Cliente | Sistema de pagos                | Baja      | No  |
-| HU012 | Empresa         | Estadísticas de uso             | Baja      | No  |
+| ID    | Actor   | Descripción                     | Prioridad | MPV |
+| ----- | ------- | ------------------------------- | --------- | --- |
+| HU009 | Cliente | Notificaciones avanzadas        | Media     | No  |
+| HU010 | Cliente | Integración con Google Calendar | Baja      | No  |
+| HU011 | Empresa | Sistema de pagos                | Baja      | No  |
+| HU012 | Empresa | Estadísticas de uso             | Baja      | No  |
 
 ## Instrucciones para iniciar la API
 
